@@ -18,7 +18,7 @@ const seq = [
     {
       name: "Suraya Namascar B",
       asana: [
-        ["Samsithiti", "Attention"],
+        ["Samasthiti", "Attention"],
         ["Utkatasana", "Intense Pose"],
         ["Uttanassana", "Forward Fold Pose"],
         ["Ardha Uttanassana", "Half-lift Pose"],
@@ -110,7 +110,6 @@ const seq = [
         ["Uttanassana", "Forward Fold Pose"],
         ["Urdva Hastasana", "Raised Hands Pose"],
         ["Samasthiti", "Attention"],
-    ["Samsithiti", "Attention"],
     ["Utkatasana", "Intense Pose"],
     ["Uttanassana", "Forward Fold Pose"],
     ["Ardha Uttanassana", "Half-lift Pose"],
