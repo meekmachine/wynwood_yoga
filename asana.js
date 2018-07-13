@@ -1,48 +1,48 @@
 const seq = [
-    {
-      name: "Suraya Namascar A",
-      asana: [
-        ["Samasthiti", "Attention"],
-        ["Urdva Hastasana", "Raised Hands Pose"],
-        ["Uttanassana", "Forward Fold Pose"],
-        ["Ardha Uttanassana", "Half-lift Pose"],
-        ["Chataranga Dandasana", "Four-pointed Staff Pose"],
-        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-        ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
-        ["Ardha Uttanassana", "Half-lift Pose"],
-        ["Uttanassana", "Forward Fold Pose"],
-        ["Urdva Hastasana", "Raised Hands Pose"],
-        ["Samasthiti", "Attention"]
-      ]
-    },
-    {
-      name: "Suraya Namascar B",
-      asana: [
-        ["Samasthiti", "Attention"],
-        ["Utkatasana", "Intense Pose"],
-        ["Uttanassana", "Forward Fold Pose"],
-        ["Ardha Uttanassana", "Half-lift Pose"],
-        ["Chataranga Dandasana", "Four-pointed Staff Pose"],
-        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-        ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
-        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
-        ["Virabhadrasana A", "Warior 1"],
-        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
-        ["Three Point Chataranga Dandasana", "Three Point Four-pointed Staff Pose"],
-        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-        ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
-        ["Ardha Uttanassana", "Half-lift Pose"],
-        ["Uttanassana", "Forward Fold Pose"],
-        ["Utkatasana", "Intense Pose"],
-        ["Samasthiti", "Attention"]
-      ]
-    },
+    // {
+    //   name: "Suraya Namascar A",
+    //   asana: [
+    //     ["Samasthiti", "Attention"],
+    //     ["Urdva Hastasana", "Raised Hands Pose"],
+    //     ["Uttanassana", "Forward Fold Pose"],
+    //     ["Ardha Uttanassana", "Half-lift Pose"],
+    //     ["Chataranga Dandasana", "Four-pointed Staff Pose"],
+    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
+    //     ["Ardha Uttanassana", "Half-lift Pose"],
+    //     ["Uttanassana", "Forward Fold Pose"],
+    //     ["Urdva Hastasana", "Raised Hands Pose"],
+    //     ["Samasthiti", "Attention"]
+    //   ]
+    // },
+    // {
+    //   name: "Suraya Namascar B",
+    //   asana: [
+    //     ["Samasthiti", "Attention"],
+    //     ["Utkatasana", "Intense Pose"],
+    //     ["Uttanassana", "Forward Fold Pose"],
+    //     ["Ardha Uttanassana", "Half-lift Pose"],
+    //     ["Chataranga Dandasana", "Four-pointed Staff Pose"],
+    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
+    //     ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+    //     ["Virabhadrasana A", "Warior 1"],
+    //     ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+    //     ["Three Point Chataranga Dandasana", "Three Point Four-pointed Staff Pose"],
+    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
+    //     ["Ardha Uttanassana", "Half-lift Pose"],
+    //     ["Uttanassana", "Forward Fold Pose"],
+    //     ["Utkatasana", "Intense Pose"],
+    //     ["Samasthiti", "Attention"]
+    //   ]
+    // },
     {
       name: "Standing Series",
       asana: [
         ["Utkatasana", "Intense Pose"],
         ["Parivrita Utkatasana", "Twisted Intense Pose"],
-        ["Pandangusithasana", "Folded Toe Grab Pose"],
+        ["Padangusithasana", "Folded Toe Grab Pose"],
         ["Utkatasana", "Intense Pose"],
         ["Parivrita Utkatasana", "Twisted Intense Pose"],
         ["Padahastasana", "Hands to Feet Pose"],
@@ -61,8 +61,8 @@ const seq = [
         ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
         ["Twisting Crunch", "Twisting Crunch"],
         ["Vasisthasana", "Extended Side Angle"],
-        ["Virabhadrasana D", "Humble Warior"],
-        ["Virabhadrasana B", "Warior 2"],
+        ["Virabhadrasana D", "Humble Warrior"],
+        ["Virabhadrasana B", "Warrior 2"],
         ["Utthita Parsvakonasana", "Extended Side Angle"],
         ["Anjaneyasana", "Cresent Lunge"],
         ["Ekapada Rajakapotasana", "One Legged King Pidgeon"],
@@ -77,7 +77,7 @@ const seq = [
         ["Paschim Attanasana A", "Forward Bend 1"],
         ["Paschim Attanasana D", "Forward Bend 2"],
         ["Purvatanasana", "Reverse Plank"],
-        ["Janu Sirsana A", "Head to Lnee Pose"],
+        ["Janu Sirsana A", "Head to Knee Pose"],
         ["Marichyasana A", "Sage's Pose 1"],
         ["Marichyasana C", "Sage's Pose 2"],
         ["Navasana", "Boat Pose"],
@@ -128,7 +128,7 @@ const seq = [
     ["Samasthiti", "Attention"],
     ["Utkatasana", "Intense Pose"],
     ["Parivrita Utkatasana", "Intense Pose"],
-    ["Pandangusithasana", "Folded Toe Grab Pose"],
+    ["Padangusithasana", "Folded Toe Grab Pose"],
     ["Utkatasana", "Intense Pose"],
     ["Parivrita Utkatasana", "Twisted Intense Pose"],
     ["Parivrita Utkatasana", "Intense Pose"],
