@@ -14,7 +14,7 @@
       var index = -1;
       var sequence = 0;
       $(function(){
-      
+      $("input").change(()=>$(this).val($(this.val().trim())))
         var next = function(){
           index = index+1;
           if (!seq[sequence].asana[index]){
@@ -24,7 +24,7 @@
               alert("Congrats!");
             }
           }
-          $("#Sanskrit, #English").val(" ")
+          $("#Sanskrit, #English").val("")
           $("h3").text(seq[sequence].name);
           $("h4").text("Position #"+ (index+1));
           
@@ -41,10 +41,10 @@
  
           }
         })
-        setTimeout(()=>{
-          $("#Sanskrit").autocomplete({source: all.map((q)=>q[0]).sort()});  
-          $("#English").autocomplete({source: all.map((q)=>q[1]).sort()});
-        }, 1000);
+   
+          $("#Sanskrit").autocomplete({source: _.uniq(all.map((q)=>q[0])).sort()});  
+          $("#English").autocomplete({source: _.uniq(all.map((q)=>q[1])).sort()});
+      
 
         next();
       });
@@ -55,8 +55,8 @@
     <main style="max-width:400px; margin: 15px auto">
       <h3></h3>
       <h4></h4>
-      <input id="Sanskrit" type="text" />
-      <input id="English" type="text" />
+      <input id="Sanskrit" type="text" value="" />
+      <input id="English" type="text" value="" />
       <button>Check Answer</button>
     </main>
   </body>
