@@ -41,7 +41,7 @@ const seq = [
       name: "Standing Series",
       asana: [
         ["Utkatasana", "Intense Pose"],
-        ["Parivrita Utkatasana", "Intense Pose"],
+        ["Parivrita Utkatasana", "Twisted Intense Pose"],
         ["Pandangusithasana", "Folded Toe Grab Pose"],
         ["Utkatasana", "Intense Pose"],
         ["Parivrita Utkatasana", "Intense Pose"],
