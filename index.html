@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wynwood Yoga</title>
+    <link type="text/css" rel="stylesheet" href="jquery-ui.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="asana.js"></script>
+    <script>
+      var eng = "";
+      var skrt= "";
+      var index = -1;
+      var sequence = 0;
+      $(function(){
+      
+        var next = function(){
+          index = index+1;
+          if (!seq[sequence].asana[index]){
+            sequence = sequence+1;
+            index=0;
+            if (!!seq[sequence].asana[index]){
+              alert("Congrats!");
+            }
+          }
+          $("#Sanskrit, #English").val(" ")
+          $("h3").text(seq[sequence].name);
+          $("h4").text("Position #"+ (index+1));
+          
+          skrt = seq[sequence].asana[index][0];
+          eng = seq[sequence].asana[index][1];
+        }
+        $("button").click(()=>{
+          
+          if (skrt === $("#Sanskrit").val() && eng === $("#English").val()){
+            alert("Great Job!");
+            next();
+          } else {
+            alert("Try again and remember to breathe");
+          }
+        })
+        $("#Sanskrit").autocomplete({source: all.map((q)=>q[0])});
+        $("#English").autocomplete({source: all.map((q)=>q[1])});
+        next();
+      });
+    </script>
+  </head>
+  <body>
+      <header style="width: 150px; margin: 0 auto"><img src="LOGO+A.jpg" alt="wywood yoga" style="width:100%"/></header>
+    <main style="max-width:400px; margin: 15px auto">
+      <h3></h3>
+      <h4></h4>
+      <input id="Sanskrit" type="text" />
+      <input id="English" type="text" />
+      <button>Check Answer</button>
+    </main>
+  </body>
+  </html>
