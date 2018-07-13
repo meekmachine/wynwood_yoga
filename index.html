@@ -41,8 +41,11 @@
  
           }
         })
-        $("#Sanskrit").autocomplete({source: _.uniq(all.map((q)=>q[0])).sort()});  
-        $("#English").autocomplete({source: _.uniq(all.map((q)=>q[1])).sort()});
+        setTimeout(()=>{
+          $("#Sanskrit").autocomplete({source: _.uniq(all.map((q)=>q[0])).sort()});  
+          $("#English").autocomplete({source: _.uniq(all.map((q)=>q[1])).sort()});
+        }, 1000);
+
         next();
       });
     </script>
