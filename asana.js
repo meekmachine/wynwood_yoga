@@ -1,42 +1,48 @@
 const seq = [
-    // {
-    //   name: "Suraya Namascar A",
-    //   asana: [
-    //     ["Samasthiti", "Attention"],
-    //     ["Urdva Hastasana", "Raised Hands Pose"],
-    //     ["Uttanassana", "Forward Fold Pose"],
-    //     ["Ardha Uttanassana", "Half-lift Pose"],
-    //     ["Chataranga Dandasana", "Four-pointed Staff Pose"],
-    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
-    //     ["Ardha Uttanassana", "Half-lift Pose"],
-    //     ["Uttanassana", "Forward Fold Pose"],
-    //     ["Urdva Hastasana", "Raised Hands Pose"],
-    //     ["Samasthiti", "Attention"]
-    //   ]
-    // },
-    // {
-    //   name: "Suraya Namascar B",
-    //   asana: [
-    //     ["Samasthiti", "Attention"],
-    //     ["Utkatasana", "Intense Pose"],
-    //     ["Uttanassana", "Forward Fold Pose"],
-    //     ["Ardha Uttanassana", "Half-lift Pose"],
-    //     ["Chataranga Dandasana", "Four-pointed Staff Pose"],
-    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
-    //     ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
-    //     ["Virabhadrasana A", "Warrior 1"],
-    //     ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
-    //     ["Three Point Chataranga Dandasana", "Three Point Four-pointed Staff Pose"],
-    //     ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
-    //     ["Adho Mukha Svanasana", "Downward Facing Dog Pose", "https://en.wikipedia.org/wiki/Adho_mukha_%C5%9Bv%C4%81n%C4%81sana"],
-    //     ["Ardha Uttanassana", "Half-lift Pose"],
-    //     ["Uttanassana", "Forward Fold Pose"],
-    //     ["Utkatasana", "Intense Pose"],
-    //     ["Samasthiti", "Attention"]
-    //   ]
-    // },
+    {
+      name: "Suraya Namascar A",
+      asana: [
+        ["Samasthiti", "Attention"],
+        ["Urdva Hastasana", "Raised Hands Pose"],
+        ["Uttanassana", "Forward Fold Pose"],
+        ["Ardha Uttanassana", "Half-lift Pose"],
+        ["Chataranga Dandasana", "Four-pointed Staff Pose"],
+        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+        ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
+        ["Ardha Uttanassana", "Half-lift Pose"],
+        ["Uttanassana", "Forward Fold Pose"],
+        ["Urdva Hastasana", "Raised Hands Pose"],
+        ["Samasthiti", "Attention"]
+      ]
+    },
+    {
+      name: "Suraya Namascar B",
+      asana: [
+        ["Samasthiti", "Attention"],
+        ["Utkatasana", "Intense Pose"],
+        ["Uttanassana", "Forward Fold Pose"],
+        ["Ardha Uttanassana", "Half-lift Pose"],
+        ["Chataranga Dandasana", "Four-pointed Staff Pose"],
+        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+        ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
+        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+        ["Virabhadrasana A", "Warrior 1"],
+        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+        ["Three Point Chataranga Dandasana", "Three Point Four-pointed Staff Pose"],
+        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+        ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
+        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+        ["Virabhadrasana A", "Warrior 1"],
+        ["Three Point Adho Mukha Svanasana", "Three Point Downward Facing Dog Pose"],
+        ["Three Point Chataranga Dandasana", "Three Point Four-pointed Staff Pose"],
+        ["Urdva Mukha Svanasana", "Upward Facing Dog Pose"],
+        ["Adho Mukha Svanasana", "Downward Facing Dog Pose"],
+        ["Ardha Uttanassana", "Half-lift Pose"],
+        ["Uttanassana", "Forward Fold Pose"],
+        ["Utkatasana", "Intense Pose"],
+        ["Samasthiti", "Attention"]
+      ]
+    },
     {
       name: "Standing Series",
       asana: [
